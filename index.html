@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started with GitHub & Python</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f0f0f0; }
+        h1 { color: #2c3e50; text-align: center; }
+        h2 { color: #2980b9; }
+        pre { background-color: #ecf0f1; padding: 10px; border-radius: 5px; }
+        code { font-family: Consolas, monospace; }
+        p { line-height: 1.6; }
+        .tip { background-color: #d5f5e3; padding: 10px; border-left: 4px solid #28b463; }
+    </style>
+</head>
+<body>
+    <h1>Getting Started with GitHub & Python</h1>
+    <p>A Beginner’s Guide to Sharing Projects and Coding with Python</p>
+
+    <h2>Chapter 1: What is GitHub?</h2>
+    <p>GitHub is like an online treasure chest where you can store, share, and work on projects with friends. It’s famous for coding, but you can use it for anything—like stories, games, or even this e-book! In this guide, we’ll also mix in some Python coding fun.</p>
+
+    <h2>Chapter 2: Setting Up GitHub</h2>
+    <p>Let’s get you started!</p>
+    <ol>
+        <li>Go to <a href="https://github.com">github.com</a> and click “Sign Up”.</li>
+        <li>Use your email and pick a username (e.g., “PythonWizard123”). Ask an adult if needed!</li>
+        <li>Create a <strong>repository</strong> (repo): Click “+” > “New Repository”, name it (e.g., “MyPythonHub”), make it “Public”, and hit “Create Repository”.</li>
+    </ol>
+    <div class="tip">Tip: A repo is like a folder for your project!</div>
+
+    <h2>Chapter 3: Adding Files to GitHub</h2>
+    <p>Let’s add a Python file to your repo!</p>
+    <h3>Example 1: A Simple Python Greeting</h3>
+    <p>1. In your repo, click “Create new file”.<br>2. Name it <code>hello.py</code>.<br>3. Type this:</p>
+    <pre><code>print("Hello, GitHub! I’m learning Python!")</code></pre>
+    <p>4. Scroll down, write “Added hello.py” in the commit message, and click “Commit new file”.</p>
+    <p><strong>Test it:</strong> Copy this code into a Python editor (like IDLE) and run it. What do you see?</p>
+
+    <h2>Chapter 4: Working Together</h2>
+    <p>GitHub is awesome for teamwork!</p>
+    <h3>Example 2: Collaborate on a Python Quiz</h3>
+    <p>1. Create a file <code>quiz.py</code> in your repo with:</p>
+    <pre><code>answer = input("What’s 2 + 2? ")
+if answer == "4":
+    print("Correct! You’re a math star!")
+else:
+    print("Oops! Try again next time.")</code></pre>
+    <p>2. Invite a friend: Go to “Settings” > “Collaborators”, add their GitHub username.<br>3. Ask them to edit <code>quiz.py</code> and add another question!</p>
+    <p><strong>Test it:</strong> Run this in Python. Type “4” or something else—what happens?</p>
+
+    <h2>Chapter 5: Showing Off with GitHub Pages</h2>
+    <p>Turn your repo into a website—like this e-book!</p>
+    <h3>How to Set Up This Page</h3>
+    <ol>
+        <li>Create a repo (e.g., “GitHubPythonGuide”).</li>
+        <li>Add this file as <code>index.html</code>.</li>
+        <li>Go to “Settings” > “Pages”, set “Source” to “main” branch, and save.</li>
+        <li>Visit <code>username.github.io/GitHubPythonGuide</code> after a minute!</li>
+    </ol>
+
+    <h2>Chapter 6: Python + GitHub Project – Number Guessing Game</h2>
+    <p>Let’s make a game and share it!</p>
+    <h3>Example 3: Number Guessing Game</h3>
+    <p>1. Create <code>game.py</code> in your repo with:</p>
+    <pre><code>secret = 6
+guess = int(input("Guess a number between 1 and 10: "))
+if guess == secret:
+    print("You win! Amazing guess!")
+else:
+    print("Nope! The secret was", secret)</code></pre>
+    <p>2. Commit it.<br>3. Ask a friend to change the <code>secret</code> number and test it!</p>
+    <p><strong>Test it:</strong> Run this in Python. Guess a number—what’s the result?</p>
+
+    <h2>Chapter 7: Exploring More with Python</h2>
+    <p>Python can do cool stuff! Here’s a loop example:</p>
+    <h3>Example 4: Countdown</h3>
+    <p>Add <code>countdown.py</code> to your repo:</p>
+    <pre><code>for i in range(5, 0, -1):
+    print(i)
+print("Blast off!")</code></pre>
+    <p><strong>Test it:</strong> Run this—what does it count down to?</p>
+
+    <h2>Chapter 8: What’s Next?</h2>
+    <p>You’ve learned:</p>
+    <ul>
+        <li>Setting up GitHub and repos.</li>
+        <li>Adding Python files.</li>
+        <li>Working with friends.</li>
+        <li>Making a website with GitHub Pages.</li>
+        <li>Fun Python coding!</li>
+    </ul>
+    <p><strong>Try These:</strong></p>
+    <ul>
+        <li>Make a repo for a Python calculator.</li>
+        <li>Create a story game where players choose options.</li>
+        <li>Explore GitHub repos like “freeCodeCamp” for ideas!</li>
+    </ul>
+    <p>Happy coding and sharing!</p>
+</body>
+</html>
